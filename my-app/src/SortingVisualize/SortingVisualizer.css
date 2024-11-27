@@ -1,0 +1,85 @@
+/* Styling for the array container */
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 80vh; /* Container height */
+    width: 100%; /* Full-width container */
+    background-color: #f8f9fa; /* Light background for better contrast */
+    border: 1px solid #dee2e6; /* Optional border */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for each bar in the array */
+  .array-bar {
+    width: 5px; /* Width of each bar */
+    margin: 0 1px; /* Small spacing between bars */
+    background-color: #007bff; /* Blue bars */
+    transition: height 0.2s ease; /* Smooth height transition */
+  }
+  
+  /* Button styling */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  .array-container {
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .array-bar {
+    background-color: teal;
+    margin: 0 1px;
+    width: 10px; /* Adjusted for 50 elements */
+    transition: height 0.2s ease;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  .array-bar {
+    background-color: teal;
+    margin: 0 1px;
+    width: 10px;
+    transition: height 0.3s ease;
+  }
+      
